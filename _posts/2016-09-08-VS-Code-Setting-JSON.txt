@@ -1,0 +1,10 @@
+---
+layout: page
+title: VS Code Setting
+---
+
+{
+    "editor.insertSpaces": false
+    , "window.openFilesInNewWindow": false
+    , "files.eol": "\n"
+}
