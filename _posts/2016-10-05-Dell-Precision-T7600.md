@@ -31,8 +31,8 @@ Xeon의 한계 온도가 높은 편이긴 하지만, idle 시에도 60도 근처
 #### 그래도! ####
 화면 꽉 차는 core를 보면 마음이 full-fill 된다.
 
-![nvidia-smi]({{ site.baseurl }}/images/nvidia-smi.png)
+![nvidia-smi]({{ site.baseurl }}/img/nvidia-smi.png)
 
-![cpuinfo]({{ site.baseurl }}/images/e5-2680_cpuinfo.png)
+![cpuinfo]({{ site.baseurl }}/img/e5-2680_cpuinfo.png)
 
-![top]({{ site.baseurl }}/images/e5-2680.png)
+![top]({{ site.baseurl }}/img/e5-2680.png)
