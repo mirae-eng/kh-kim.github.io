@@ -24,6 +24,10 @@ title: Recommender System and Natural Language Processing
 마찬가지로, 위에서 볼 수 있듯이, 추천 시스템(Recommender System)과 자연어처리(NLP)는 굉장히 비슷한 문제를 풀고 있음을 알 수 있고, 실제로 이 둘은 모두 Sparsity와 힘겨운 싸움을 해 왔다.
 단어도 수십만 단어가 존재하지만, 상품도 수십만 가지가 존재하고, 사용자는 수백~수천만명이 존재한다.
 
+Sparsity를 해결하기 위하여 Language Modeling에서는 back-off 방식의 n-gram을 사용해 왔고, 
+추천 시스템에서는 SVD와 같은 dimension reduction 또는 Collaborative Filtering (CF) 방식을 통해 효과적인 추천을 하였다. 
+그리고 LM과 달리 기존의 추천 방식은 꽤 훌륭하게 동작한다. 어쩌면 NLP에 비하면 훨씬 더 쉬운 문제일 수도 있다는 생각이 들기도 한다. (덕분에 baseline이 높아졌지만)
+
 최근 수년간 딥러닝(Deep Learning)이 여러 Machine Learning 영역을 정복 해 왔고, NLP도 예외가 아니었다.
 Word2Vec이 제안 된 이래로, 단어를 효과적으로 vector로 표현할 수 있게 되면서, 수많은 가시적인 성과들이 쏟아졌다.
 그렇다면, 비슷한 문제를 풀어야 하는 추천 시스템에도 유사한 방법으로 적용이 가능 할 것이다.
