@@ -43,6 +43,8 @@ Word2Vec이 제안 된 이래로, 단어를 효과적으로 vector로 표현할 
 이는 상품의 대체제 추천에 사용 될 수 있다.
 또한 더 나아가 동시에 구매한 상품들을 한 문장으로 나타내어 훈련시킨다면, 함께 구매한 물건들이 비슷한 상품끼리 비슷한 vector 값을 갖도록 훈련하게 되어, 보완재 추천의 기능을 할 수 있게 된다.
 
+![대체재 추천]({{ site.baseurl }}/img/substitute_recommended.png)
+
 word2vec을 적용 시킬 때에 몇가지 튜닝이 필요한 parameter들이 있는데, 가장 중요한 것 중에 하나는 window size이다.
 보통 Skip-gram 알고리즘을 가장 많이 사용하게 되는데, 알고리즘 내부를 살펴보면, window size 내에서는 순서가 상관이 없다.
 따라서, 실제로 더 큰 window size를 사용할 수록, vector는 syntax 보다는 semantic 정보를 포함하게 된다.
